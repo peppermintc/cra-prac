@@ -5,7 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ClassPage from "./pages/ClassPage";
-import StorePage from "./pages/StorePage";
 
 const router = createBrowserRouter([
   {
@@ -15,10 +14,6 @@ const router = createBrowserRouter([
   {
     path: "/class",
     element: <ClassPage />,
-  },
-  {
-    path: "/store",
-    element: <StorePage />,
   },
 ]);
 
